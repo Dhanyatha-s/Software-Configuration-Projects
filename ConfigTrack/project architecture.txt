@@ -1,0 +1,9 @@
+ConfigTrack/
+│
+├── config_manager.py       ← Core logic for handling configs
+├── version_control.py      ← Tracks versions, backups, rollbacks
+├── database_logger.py      ← (Optional) Logs to SQLite
+├── main.py                 ← CLI interface
+├── configs/                ← Sample config files (JSON/YAML)
+├── backups/                ← Stores previous versions
+└── README.md
