@@ -4,7 +4,7 @@
 <table>
   <tr>
     <td width="50%">
-      <h3>Project #2: ConfigTrack </h3>
+      <h3>Project #1: ConfigTrack </h3>
       <p><a href="https://github.com/Dhanyatha-s/Software-Configuration-Projects/tree/bcc9eaa93c7f3931a10dc8aa99ebf8196793219f/ConfigTrack">Click Here</a></p>
     </td>
     <td>
