@@ -1,0 +1,108 @@
+{
+    "leave_policy": {
+        "annual_leaves": 28,
+        "sick_leaves": 12,
+        "bonus_leaves": 3
+    },
+    "working_hours": {
+        "daily_hours": 7.5
+    },
+    "benefits": {
+        "health_insurance": "Premium"
+    },
+    "reimbursement": {
+        "max_amount": 5000
+    },
+    "performance_bonus": "Eligible",
+    "rules": [
+        {
+            "condition": {
+                "field": "role_level",
+                "equals": "Junior"
+            },
+            "actions": {
+                "leave_policy": {
+                    "annual_leaves": 18
+                }
+            }
+        },
+        {
+            "condition": {
+                "field": "role_level",
+                "equals": "Senior"
+            },
+            "actions": {
+                "leave_policy": {
+                    "annual_leaves": 28
+                }
+            }
+        },
+        {
+            "condition": {
+                "field": "on_probation",
+                "equals": true
+            },
+            "actions": {
+                "leave_policy": {
+                    "annual_leaves": 10
+                }
+            }
+        },
+        {
+            "condition": {
+                "field": "country",
+                "equals": "Germany"
+            },
+            "actions": {
+                "leave_policy": {
+                    "sick_leaves": 12
+                },
+                "working_hours": {
+                    "daily_hours": 7.5
+                }
+            }
+        },
+        {
+            "condition": {
+                "field": "employment_type",
+                "equals": "Full-time"
+            },
+            "actions": {
+                "benefits": {
+                    "health_insurance": "Premium"
+                }
+            }
+        },
+        {
+            "condition": {
+                "all": [
+                    {
+                        "field": "department",
+                        "equals": "HR"
+                    },
+                    {
+                        "field": "role_level",
+                        "equals": "Senior"
+                    }
+                ]
+            },
+            "actions": {
+                "reimbursement": {
+                    "max_amount": 15000
+                }
+            }
+        },
+        {
+            "condition": {
+                "field": "performance_rating",
+                "gte": 4.5
+            },
+            "actions": {
+                "performance_bonus": "Eligible",
+                "leave_policy": {
+                    "bonus_leaves": 3
+                }
+            }
+        }
+    ]
+}
