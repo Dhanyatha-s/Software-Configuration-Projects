@@ -1,6 +1,19 @@
 # Software-Configuration-Projects
-<p align='center'>
-Project #1: Configuration Management tool [click here](https://github.com/Dhanyatha-s/Software-Configuration-Projects/tree/bcc9eaa93c7f3931a10dc8aa99ebf8196793219f/ConfigTrack)  
+
+  
+<table>
+  <tr>
+    <td width="50%">
+      <h3>Project #2: ConfigTrack </h3>
+      <p><a href="https://github.com/Dhanyatha-s/Software-Configuration-Projects/tree/bcc9eaa93c7f3931a10dc8aa99ebf8196793219f/ConfigTrack">Click Here</a></p>
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/fc3faebb-c4d5-4610-bbcb-ab5839ceadaf" width="100%">
+    </td>
+  </tr>
+</table>
+
+
 <table>
   <tr>
     <td width="50%">
